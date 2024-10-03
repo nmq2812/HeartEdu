@@ -9,9 +9,9 @@ interface AuthState {
 }
 
 export const useAuthStore = create<AuthState>((set) => ({
-    isLoggedIn: false,
+    isLoggedIn: true,
     username: null,
-    accountLevel: 0,
+    accountLevel: 3,
     setLogin: (username: string) =>
         set({
             isLoggedIn: true,

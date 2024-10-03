@@ -9,15 +9,9 @@ import { Content, Footer, Header } from 'antd/es/layout/layout';
 export default async function Home() {
     return (
         <Layout className="site-layout">
-            {/* Header */}
-            <Header className="bg-blue-600 text-white text-3xl font-bold px-4">
-                Hệ thống quản lý giáo dục
-            </Header>
-
             {/* Content được xử lý server-side */}
             <Content
                 style={{
-                    margin: '24px 16px',
                     padding: 24,
                     background: '#fff',
                     minHeight: 280,
@@ -30,11 +24,6 @@ export default async function Home() {
                     quả.
                 </p>
             </Content>
-
-            {/* Footer */}
-            <Footer style={{ textAlign: 'center' }}>
-                &copy; 2024 Hệ thống quản lý giáo dục. Mọi quyền được bảo lưu.
-            </Footer>
         </Layout>
     );
 }

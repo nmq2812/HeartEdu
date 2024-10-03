@@ -1,7 +1,7 @@
 'use client';
 import { useState } from 'react';
 import { useRouter } from 'next/navigation';
-import { useAuthStore } from '@/utils/SigninState';
+import { useAuthStore } from '@/store/SigninState';
 import { Content } from 'antd/es/layout/layout';
 
 const Login = () => {
